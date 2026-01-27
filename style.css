@@ -1,23 +1,74 @@
+/* General page styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
 
+/* Page title */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
 
+h3 {
+  text-align: center;
+  margin-top: -10px;
+  color: #555;
+}
+
+/* Intro paragraph */
+p {
+  max-width: 900px;
+  margin: 20px auto;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Table styling */
 table {
-    border-collapse: collapse; /* makes borders look solid, not double */
-    width: 100%;
-  }
+  width: 95%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
-  table, th, td {
-    border: 2px solid black; /* solid border */
-  }
+th {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px;
+}
 
-  th, td {
-    padding: 10px;
-    text-align:
-  }
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
 
-#btn{
+/* Hover effect for rows */
+tr:hover {
+  background-color: #f0f8ff;
+}
 
-    color: rgb(255, 0, 0);
+/* Button styling */
+button {
+  padding: 8px 14px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-
-
+button:hover {
+  background-color: #217dbb;
 }
