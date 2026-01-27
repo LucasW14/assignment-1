@@ -1,0 +1,23 @@
+
+
+table {
+    border-collapse: collapse; /* makes borders look solid, not double */
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 2px solid black; /* solid border */
+  }
+
+  th, td {
+    padding: 10px;
+    text-align:
+  }
+
+#btn{
+
+    color: rgb(255, 0, 0);
+
+
+
+}
