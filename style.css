@@ -3,9 +3,13 @@ body {
   color: #404040;
   font-size: 11pt;
   font-family: Georgia, Garamond, serif;
+  background-image: url("images/1000_F_395397487_2zbxYWxaJPyKe2dprFA3iG0bcBBGYKkQ.jpg");
+  background-repeat: repeat;                  /* repeat X and Y */
+  background-attachment: fixed;               /* stays still on scroll */
+  background-position: top left;    
 }
 
-a {
+a:hover {
   color: #A4A400;
 }
 
@@ -84,5 +88,25 @@ blockquote {
   background-color: #FFFFA8;
   margin-left: 40px;   /* indented */
   padding: 10px;
+}
+
+ol li,
+ul li {
+  margin-bottom: 10px;
+}
+
+#visitor-tips {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#visitor-tips li {
+  background-image: url("images/6632313-200.png");
+  background-repeat: no-repeat;
+  background-position: 0 0.35em; /* aligns with text */
+  background-size: 16px 16px;   /* ✅ makes it a small bullet */
+  padding-left: 26px;           /* space for the bullet */
+  margin-bottom: 8px;
 }
 
