@@ -91,3 +91,12 @@ a {
 a:hover {
   background-color: #217dbb;
 }
+
+#congo-button {
+  background-color: #a4a400;  /* olive/yellow */
+  color: white;
+}
+
+#congo-button:hover {
+  background-color: #808000;
+}
